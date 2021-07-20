@@ -1,0 +1,35 @@
+.item {
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+.status {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.online {
+  composes: status;
+  background-color: #0b970b;
+}
+
+.offline {
+  composes: status;
+  background-color: #b32929;
+}
+
+.avatar {
+  margin-right: 10px;
+  width: 70px;
+  border-radius: 5px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 700;
+}
